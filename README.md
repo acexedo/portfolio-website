@@ -11,9 +11,13 @@ It showcases my projects, skills, and experience, and provides links to my GitHu
 ## 📂 Project Structure
 .
 ├── index.html # Main HTML file
+
 ├── styles.css # CSS styles
+
 ├── script.js # JavaScript for interactivity
+
 ├── /img # Image assets
+
 └── /files # Static files (e.g., resume PDF)
 
 ---
