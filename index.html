@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Charles, a skilled Python and web developer showcasing innovative projects.">
+    <title>Charles | Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@300;400;500&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Charles</div>
+            <ul class="nav-links" role="navigation">
+                <li><a href="#home" aria-label="Home Section">Home</a></li>
+                <li><a href="#about" aria-label="About Section">About</a></li>
+                <li><a href="#skills" aria-label="Skills Section">Skills</a></li>
+                <li><a href="#projects" aria-label="Projects Section">Projects</a></li>
+                <li><a href="#contact" aria-label="Contact Section">Contact</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <img src="img/hero.jpg" alt="Profile Picture of Charles" class="profile-pic">
+            <div class="profile-details-role">
+                <span class="primary-text">
+                    <span class="profile-role-tagline">I'm CHARLES, a</span>
+                    <h1>
+                        <p class="styles_typicalWrapper__1_Uvh">Software Developer</p>
+                    </h1>
+                    <span class="profile-role-tagline">I'm passionate about python scripting, data analysis, and both front-end and back-end website development</span>
+                </span>
+            </div>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">Explore Projects</a>
+                <a href="files/Resume.pdf" class="btn secondary-btn" download>Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="section-header">
+            <h2>Why Choose Me?</h2>
+            <div class="header-underline"></div>
+        </div>
+        <div class="about-content">
+            <p>I'm a dedicated developer with a knack for crafting seamless web experiences and data-driven solutions. From dynamic front-end interfaces to robust back-end systems, I thrive on turning ideas into reality with Python and modern web tools.</p>
+            <h3>Highlights:</h3>
+            <div class="highlights-grid">
+                <div class="highlight-card" data-tilt>
+                    <i class="fas fa-code-branch"></i>
+                    <p>Building responsive web apps with Flask and React</p>
+                </div>
+                <div class="highlight-card" data-tilt>
+                    <i class="fas fa-gamepad"></i>
+                    <p>Game design with Python for engaging user experiences</p>
+                </div>
+                <div class="highlight-card" data-tilt>
+                    <i class="fas fa-chart-bar"></i>
+                    <p>Data analysis with Pandas and scikit-learn</p>
+                </div>
+                <div class="highlight-card" data-tilt>
+                    <i class="fas fa-laptop-code"></i>
+                    <p>Delivering clean, efficient code for freelance clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2>Skills & Tech Stack</h2>
+            <div class="header-underline"></div>
+        </div>
+        <div class="skills-grid container">
+            <div class="skill-card" data-skill="Python" aria-label="Python Skill">
+                <div class="skill-front">
+                    <i class="fas fa-code pulse-icon"></i>
+                    <span>Python</span>
+                </div>
+                <div class="skill-back">
+                    <p>Versatile programming for web, data, and ML</p>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="Web Development" aria-label="Web Development Skill">
+                <div class="skill-front">
+                    <i class="fas fa-globe pulse-icon"></i>
+                    <span>Web Development</span>
+                </div>
+                <div class="skill-back">
+                    <p>Crafting responsive, dynamic web apps</p>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="Data Analysis" aria-label="Data Analysis Skill">
+                <div class="skill-front">
+                    <i class="fas fa-database pulse-icon"></i>
+                    <span>Data Analysis</span>
+                </div>
+                <div class="skill-back">
+                    <p>Extracting insights with Pandas and visualization</p>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="Secure Coding" aria-label="Secure Coding Skill">
+                <div class="skill-front">
+                    <i class="fas fa-shield-alt pulse-icon"></i>
+                    <span>Secure Coding</span>
+                </div>
+                <div class="skill-back">
+                    <p>Building robust, secure applications</p>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="Machine Learning" aria-label="Machine Learning Skill">
+                <div class="skill-front">
+                    <i class="fas fa-brain pulse-icon"></i>
+                    <span>Machine Learning</span>
+                </div>
+                <div class="skill-back">
+                    <p>Developing predictive models with scikit-learn</p>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="Network Troubleshooting" aria-label="Network Troubleshooting Skill">
+                <div class="skill-front">
+                    <i class="fas fa-network-wired pulse-icon"></i>
+                    <span>Troubleshooting</span>
+                </div>
+                <div class="skill-back">
+                    <p>Diagnosing and resolving network issues</p>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="Critical Thinking" aria-label="Critical Thinking Skill">
+                <div class="skill-front">
+                    <i class="fas fa-lightbulb pulse-icon"></i>
+                    <span>Critical Thinking</span>
+                </div>
+                <div class="skill-back">
+                    <p>Solving complex problems with clarity</p>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="Teamwork" aria-label="Teamwork Skill">
+                <div class="skill-front">
+                    <i class="fas fa-users pulse-icon"></i>
+                    <span>Teamwork</span>
+                </div>
+                <div class="skill-back">
+                    <p>Collaborating effectively in teams</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2>Projects</h2>
+            <div class="header-underline"></div>
+        </div>
+        <div class="projects-grid container">
+            <div class="project-card">
+                <div class="project-img-wrapper">
+                    <img src="img/project (1).jpg" alt="Intrusion Detection System Project" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-tech">Python | scikit-learn | ML</div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Intrusion Detection System</h3>
+                    <p>An ensemble ML model using Python and scikit-learn to detect network anomalies.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/acexedo/intrusion-detection-system" target="_blank" class="btn project-btn" role="button" aria-describedby="tooltip-intrusion">GitHub</a>
+                        <span id="tooltip-intrusion" role="tooltip" class="tooltip">View Source Code</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img-wrapper">
+                    <img src="img/project (2).jpg" alt="Credit Risk Predictor Project" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-tech">Python | NLP | scikit-learn</div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Credit Risk Predictor</h3>
+                    <p>ML model using sentiment analysis to predict credit risk.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/acexedo/credit-risk-predictor" target="_blank" class="btn project-btn" role="button" aria-describedby="tooltip-credit">GitHub</a>
+                        <span id="tooltip-credit" role="tooltip" class="tooltip">View Source Code</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img-wrapper">
+                    <img src="img/project (3).jpg" alt="Water Quality Determiner Project" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-tech">Python | scikit-learn | Data Analysis</div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Water Quality Determiner</h3>
+                    <p>Ensemble ML model to assess water quality with Python.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/acexedo/water-quality-determiner" target="_blank" class="btn project-btn" role="button" aria-describedby="tooltip-water">GitHub</a>
+                        <span id="tooltip-water" role="tooltip" class="tooltip">View Source Code</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img-wrapper">
+                    <img src="img/project (4).jpg" alt="DiD Cost of Living Project" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-tech">Python | Pandas | Statistics</div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>DiD Cost of Living Analysis</h3>
+                    <p>Analyzed economic impacts using Difference-in-Differences modeling.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/acexedo/cost-of-living-analysis" target="_blank" class="btn project-btn" role="button" aria-describedby="tooltip-did">GitHub</a>
+                        <span id="tooltip-did" role="tooltip" class="tooltip">View Source Code</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card confidential">
+                <div class="project-img-wrapper">
+                    <img src="img/project (5).jpg" alt="Stock Market Analysis Bot Project" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-tech">Python | Data Analysis | Automation</div>
+                    </div>
+                    <div class="confidential-badge">
+                        <i class="fas fa-lock"></i> Confidential Project
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Stock Market Analysis Bot</h3>
+                    <p>Python bot for analyzing market trends with secure data handling. Details restricted due to non-disclosure agreement.</p>
+                    <div class="project-links">
+                        <a href="javascript:void(0)" class="btn project-btn disabled" role="button" aria-describedby="tooltip-stock" aria-disabled="true">GitHub</a>
+                        <span id="tooltip-stock" role="tooltip" class="tooltip">Restricted: Under NDA</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img-wrapper">
+                    <img src="img/project (6).jpg" alt="Secure Chat Bot Project" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-tech">Python | Cryptography | CLI</div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Secure Chat Bot</h3>
+                    <p>Encrypted messaging bot built with Python.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/acexedo/secure-chat-bot" target="_blank" class="btn project-btn" role="button" aria-describedby="tooltip-chat">GitHub</a>
+                        <span id="tooltip-chat" role="tooltip" class="tooltip">View Source Code</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img-wrapper">
+                    <img src="img/project (7).jpg" alt="Web Vulnerability Scanner Project" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-tech">Python | Requests | Cybersecurity</div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Web Vulnerability Scanner</h3>
+                    <p>Python script to identify web vulnerabilities ethically.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/acexedo/web-vulnerability-scanner" target="_blank" class="btn project-btn" role="button" aria-describedby="tooltip-vuln">GitHub</a>
+                        <span id="tooltip-vuln" role="tooltip" class="tooltip">View Source Code</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img-wrapper">
+                    <img src="img/project (8).jpg" alt="Network Traffic Analyzer Project" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-tech">Python | Scapy | Data Visualization</div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Network Traffic Analyzer</h3>
+                    <p>Tool for detecting network anomalies using packet analysis.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/acexedo/network-traffic-analyzer" target="_blank" class="btn project-btn" role="button" aria-describedby="tooltip-traffic">GitHub</a>
+                        <span id="tooltip-traffic" role="tooltip" class="tooltip">View Source Code</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img-wrapper">
+                    <img src="img/project (9).jpg" alt="Password Strength Checker Project" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-tech">Python | Flask | Web Security</div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Password Strength Checker</h3>
+                    <p>Flask web app evaluating password security.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/acexedo/password-strength-checker" target="_blank" class="btn project-btn" role="button" aria-describedby="tooltip-password">GitHub</a>
+                        <span id="tooltip-password" role="tooltip" class="tooltip">View Source Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h2>Contact Me</h2>
+            <div class="header-underline"></div>
+        </div>
+        <form aria-label="Contact Form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn primary-btn">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://github.com/acexedo" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/charles-edo-3b7213284" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:edocharles728@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Charles. Crafted with Precision.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
