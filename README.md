@@ -53,9 +53,9 @@ This site is deployed in two ways:
 
 If you'd like to connect or learn more:
 
-- GitHub: [@your-username](https://github.com/your-username)  
-- LinkedIn: [Your Name](https://www.linkedin.com/in/your-link/)  
-- Email: youremail@example.com  
+- GitHub: [@acexedo](https://github.com/acexedo)  
+- LinkedIn: [Charles Edo](https://www.linkedin.com/in/charles-edo-3b7213284)  
+- Email: edocharles728@gmail.com  
 
 ---
 
