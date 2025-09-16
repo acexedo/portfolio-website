@@ -9,7 +9,6 @@ It showcases my projects, skills, and experience, and provides links to my GitHu
 ---
 
 ## 📂 Project Structure
-.
 
 ├── index.html # Main HTML file
 
